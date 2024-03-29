@@ -1,0 +1,7 @@
+require("core.plugin_config.lualine")
+require("core.plugin_config.bufferline")
+require("core.plugin_config.treesitter")
+require("core.plugin_config.dashboard")
+require("core.plugin_config.gitsigns")
+require("core.plugin_config.themery")
+require("core.plugin_config.oil")
