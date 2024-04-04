@@ -9,6 +9,7 @@ wk.register({
     v = {"<cmd>vs<cr>", "Split vertical"},
     m = {"<cmd>sp<cr>", "Split horizontal"},
     n = {"<cmd>Oil --float<cr>", "Explorador de arquivos"},
+    o = {"<cmd>noh<cr>", "Desabilitar highlight de pesquisa"},
     s = {"<cmd>write<cr>", "Salvar"},
     q = {"<cmd>quit<cr>", "Fechar janela"},
     h = {"<c-w>h", "Janela à esquerda"},
