@@ -7,7 +7,8 @@ wk.register({
     p = {"<cmd>bn<cr>", "Próximo buffer"},
     c = {"<cmd>bdel<cr>", "Fechar buffer"},
     v = {"<cmd>vs<cr>", "Split vertical"},
-    m = {"<cmd>sp<cr>", "Split horizontal"},
+    V = {"<cmd>sp<cr>", "Split horizontal"},
+    m = {"<cmd>!make -k<cr>", "Make"},
     n = {"<cmd>Oil --float<cr>", "Explorador de arquivos"},
     o = {"<cmd>noh<cr>", "Desabilitar highlight de pesquisa"},
     s = {"<cmd>write<cr>", "Salvar"},
@@ -19,8 +20,6 @@ wk.register({
     f = { "<cmd>Telescope find_files<cr>", "Encontrar arquivos" },
     b = {"<cmd>Telescope buffers<cr>", "Lista de buffers"},
     t = {"<cmd>Themery<cr>", "Temas"},
-    g = {
-        name = "Git",
-        p = {"<cmd>Gitsigns preview_hunk<cr>", "Preview Hunk"},
-    },
+    g = {"<cmd>e ~/.config/nvim<cr>", "Configurações"},
+    r = {"<cmd>normal gggqG<cr>", "Formatar arquivo"},
 }, { prefix = "<leader>" })

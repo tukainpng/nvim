@@ -19,8 +19,18 @@ require("lazy").setup({
     "nvim-tree/nvim-web-devicons",
     "zaldih/themery.nvim",
     "nvim-lualine/lualine.nvim",
-    'stevearc/oil.nvim',
+    "stevearc/oil.nvim",
     "akinsho/bufferline.nvim",
+    {
+      "VonHeikemen/lsp-zero.nvim",
+      branch = 'v3.x'
+    },
+    "neovim/nvim-lspconfig",
+    "hrsh7th/cmp-nvim-lsp",
+    "hrsh7th/nvim-cmp",
+    "L3MON4D3/LuaSnip",
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
 
     {
         "nvimdev/dashboard-nvim",
