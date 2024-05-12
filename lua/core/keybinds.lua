@@ -9,6 +9,13 @@ wk.register({
     v = {"<cmd>vs<cr>", "Split vertical"},
     V = {"<cmd>sp<cr>", "Split horizontal"},
     m = {"<cmd>!make -k<cr>", "Make"},
+    z = {
+        name = "Zig",
+        b = {"<cmd>!zig build<cr>", "Compilar"},
+        r = {"<cmd>!zig build run<cr>", "Compilar e executar"},
+        d = {"<cmd>!zig build docs<cr>", "Compilar documentação"},
+        v = {"<cmd>!xdg-open zig-out/docs/index.html<cr>", "Visualizar documentação"},
+    },
     n = {"<cmd>Oil --float<cr>", "Explorador de arquivos"},
     o = {"<cmd>noh<cr>", "Desabilitar highlight de pesquisa"},
     s = {"<cmd>write<cr>", "Salvar"},
