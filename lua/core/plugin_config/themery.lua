@@ -7,12 +7,6 @@ require("themery").setup({
     },
 
     {
-        name = "Gruvbox Light",
-        colorscheme = "gruvbox",
-        before = [[ vim.opt.background = "light" ]],
-    },
-
-    {
         name = "Miasma",
         colorscheme = "miasma",
         before = [[ vim.opt.background = "dark" ]],
@@ -25,20 +19,80 @@ require("themery").setup({
     },
 
     {
-        name = "Everforest Light",
-        colorscheme = "everforest",
-        before = [[ vim.opt.background = "light" ]],
-    },
-
-    {
         name = "Onedark",
         colorscheme = "onedark",
         before = [[ vim.opt.background = "dark" ]],
     },
 
     {
+        name = "Nord",
+        colorscheme = "nord",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Nordic",
+        colorscheme = "nordic",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Onenord",
+        colorscheme = "onenord",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Dracula",
+        colorscheme = "dracula",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
         name = "Tokyonight",
         colorscheme = "tokyonight",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Tokyodark",
+        colorscheme = "tokyodark",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Monokai Pro",
+        colorscheme = "monokai-pro-default",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Monokai Pro Octagon",
+        colorscheme = "monokai-pro-octagon",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Monokai Pro Machine",
+        colorscheme = "monokai-pro-machine",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Monokai Pro Ristretto",
+        colorscheme = "monokai-pro-ristretto",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Monokai Pro Spectrum",
+        colorscheme = "monokai-pro-spectrum",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Monokai Pro Classic",
+        colorscheme = "monokai-pro-classic",
         before = [[ vim.opt.background = "dark" ]],
     },
 
@@ -52,12 +106,6 @@ require("themery").setup({
         name = "Kanagawa Dragon",
         colorscheme = "kanagawa-dragon",
         before = [[ vim.opt.background = "dark" ]],
-    },
-
-    {
-        name = "Kanagawa Lotus",
-        colorscheme = "kanagawa-lotus",
-        before = [[ vim.opt.background = "light" ]],
     },
 
     {
@@ -76,30 +124,6 @@ require("themery").setup({
         name = "Catppuccin Frappe",
         colorscheme = "catppuccin-frappe",
         before = [[ vim.opt.background = "dark" ]],
-    },
-
-    {
-        name = "Catppuccin Latte",
-        colorscheme = "catppuccin-latte",
-        before = [[ vim.opt.background = "light" ]],
-    },
-
-    {
-        name = "Carbonfox",
-        colorscheme = "carbonfox",
-        before = [[ vim.opt.background = "dark" ]],
-    },
-
-    {
-        name = "Dawnfox",
-        colorscheme = "dawnfox",
-        before = [[ vim.opt.background = "light" ]],
-    },
-
-    {
-        name = "Dayfox",
-        colorscheme = "dayfox",
-        before = [[ vim.opt.background = "light" ]],
     },
 
     {
@@ -126,6 +150,55 @@ require("themery").setup({
         before = [[ vim.opt.background = "dark" ]],
     },
 
+    {
+        name = "Carbonfox",
+        colorscheme = "carbonfox",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Gruvbox Light",
+        colorscheme = "gruvbox",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+    {
+        name = "Everforest Light",
+        colorscheme = "everforest",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+    {
+        name = "Onenord Light",
+        colorscheme = "onenord-light",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+    {
+        name = "Kanagawa Lotus",
+        colorscheme = "kanagawa-lotus",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+    {
+        name = "Catppuccin Latte",
+        colorscheme = "catppuccin-latte",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+    {
+        name = "Dawnfox",
+        colorscheme = "dawnfox",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+    {
+        name = "Dayfox",
+        colorscheme = "dayfox",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+
     },
 
     themeConfigFile = "~/.config/nvim/lua/core/plugin_config/themery.lua",
@@ -136,6 +209,6 @@ require("themery").setup({
 -- This block will be replaced by Themery.
 vim.opt.background = "dark"
 
-vim.cmd("colorscheme gruvbox")
-vim.g.theme_id = 1
+vim.cmd("colorscheme nordic")
+vim.g.theme_id = 6
 -- end themery block

@@ -47,5 +47,11 @@ require("lazy").setup({
     "EdenEast/nightfox.nvim",
     "folke/tokyonight.nvim",
     "rebelot/kanagawa.nvim",
+    "shaunsingh/nord.nvim",
+    "AlexvZyl/nordic.nvim",
+    "Mofiqul/dracula.nvim",
+    "rmehri01/onenord.nvim",
+    "tiagovla/tokyodark.nvim",
+    "loctvl842/monokai-pro.nvim",
     "xero/miasma.nvim",
 })
