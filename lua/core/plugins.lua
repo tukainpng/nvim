@@ -33,13 +33,18 @@ require("lazy").setup({
     "williamboman/mason-lspconfig.nvim",
 
     {
-        "nvimdev/dashboard-nvim",
-        event = "VimEnter",
+      "goolord/alpha-nvim",
+      config = function()
+        require'alpha'.setup(require'alpha.themes.theta'.config)
+      end
     },
 
     -- Temas --
-    { 
+    {
         "catppuccin/nvim", name = "catppuccin"
+    },
+    {
+        "Everblush/nvim", name = "everblush"
     },
     "ellisonleao/gruvbox.nvim",
     "neanias/everforest-nvim",
@@ -54,4 +59,5 @@ require("lazy").setup({
     "tiagovla/tokyodark.nvim",
     "loctvl842/monokai-pro.nvim",
     "xero/miasma.nvim",
+    "LunarVim/horizon.nvim",
 })
