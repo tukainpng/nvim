@@ -9,6 +9,18 @@ require'lspconfig'.lua_ls.setup {
   capabilities = capabilities,
 }
 
+require'lspconfig'.cssls.setup {
+  capabilities = capabilities,
+}
+
+require'lspconfig'.html.setup {
+  capabilities = capabilities,
+}
+
+require'lspconfig'.tsserver.setup {
+  capabilities = capabilities,
+}
+
 require'lspconfig'.clangd.setup {
   capabilities = capabilities,
 }

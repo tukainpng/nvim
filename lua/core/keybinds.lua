@@ -1,9 +1,12 @@
 vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>T", function()
+  require("typeit").typeit({delay = 30})
+end, {desc = "Re-type what in current buffer"})
 local wk = require("which-key")
 wk.register({
     name = "Leader",
     a = {"<cmd>bp<cr>", "Buffer anterior"},
-    d = {"<cmd>Dashboard<cr>", "Abrir Dashboard"},
+    d = {"<cmd>Alpha<cr>", "Abrir Dashboard"},
     p = {"<cmd>bn<cr>", "Próximo buffer"},
     c = {"<cmd>bdel<cr>", "Fechar buffer"},
     v = {"<cmd>vs<cr>", "Split vertical"},

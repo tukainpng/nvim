@@ -1,29 +1,31 @@
+local v = vim
+
 -- booleans --
-vim.o.number        =   true
-vim.o.cursorline    =   true
-vim.o.hlsearch      =   true
-vim.o.ignorecase    =   true
-vim.o.smartcase     =   true
-vim.o.expandtab     =   true
-vim.o.autoindent    =   true
-vim.o.showmatch     =   true
-vim.o.hidden        =   true
-vim.o.termguicolors =   true
-vim.o.splitright    =   true
-vim.o.splitbellow   =   true
-vim.o.list          =   true
+v.o.number        =   true
+v.o.cursorline    =   true
+v.o.hlsearch      =   true
+v.o.ignorecase    =   true
+v.o.smartcase     =   true
+v.o.expandtab     =   true
+v.o.autoindent    =   true
+v.o.showmatch     =   true
+v.o.hidden        =   true
+v.o.termguicolors =   true
+v.o.splitright    =   true
+v.o.splitbellow   =   true
+v.o.list          =   true
 
 -- numbers --
-vim.o.mat           =   2
-vim.o.tabstop       =   2
-vim.o.softtabstop   =   2
-vim.o.shiftwidth    =   2
-vim.o.textwidth     =   79
-vim.o.scrolloff     =   8
+v.o.mat           =   2
+v.o.tabstop       =   2
+v.o.softtabstop   =   2
+v.o.shiftwidth    =   2
+v.o.textwidth     =   79
+v.o.scrolloff     =   8
 
 -- strings --
-vim.o.signcolumn    =   "yes"
-vim.o.clipboard     =   "unnamed,unnamedplus"
-vim.o.colorcolumn   =   "80"
-vim.o.listchars     =   "tab:>-,trail:~,extends:>,precedes:<,space:·"
+v.o.signcolumn    =   "yes"
+v.o.clipboard     =   "unnamed,unnamedplus"
+v.o.colorcolumn   =   "80"
+v.o.listchars     =   "tab:>-,trail:~,extends:>,precedes:<,space:·"
 

@@ -39,6 +39,8 @@ require("lazy").setup({
       end
     },
 
+    "0xWaleed/typeit-nvim",
+
     -- Temas --
     {
         "catppuccin/nvim", name = "catppuccin"
