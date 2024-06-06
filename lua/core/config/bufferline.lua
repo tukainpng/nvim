@@ -1,6 +1,6 @@
 require("bufferline").setup({
   options = {
-    numbers = "ordinal",
+    numbers = "none",
     indicator = {
       style = 'icon',
     },
