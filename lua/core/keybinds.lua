@@ -15,7 +15,7 @@ wk.register({
         name = "Make",
         a = {"<cmd>!make -k<cr>", "All"},
         c = {"<cmd>!make -k clean<cr>", "Clean"},
-        d = {"<cmd>!make -k doc<cr>", "Doc"},
+        d = {"<cmd>!make -B doc<cr>", "Doc"},
         },
     n = {"<cmd>Oil --float<cr>", "Explorador de arquivos"},
     o = {"<cmd>noh<cr>", "Desabilitar highlight de pesquisa"},

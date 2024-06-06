@@ -11,55 +11,53 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-    "nvim-treesitter/nvim-treesitter",
-    "folke/which-key.nvim",
-    "nvim-lua/plenary.nvim",
-    "nvim-telescope/telescope.nvim",
-    "lewis6991/gitsigns.nvim",
-    "nvim-tree/nvim-web-devicons",
-    "zaldih/themery.nvim",
-    "nvim-lualine/lualine.nvim",
-    "stevearc/oil.nvim",
+  "nvim-tree/nvim-web-devicons",
+  "nvim-treesitter/nvim-treesitter",
+  "folke/which-key.nvim",
+  "nvim-lua/plenary.nvim",
+  "nvim-telescope/telescope.nvim",
+  "lewis6991/gitsigns.nvim",
+  "zaldih/themery.nvim",
+  "nvim-lualine/lualine.nvim",
+  "stevearc/oil.nvim",
+  {
     "akinsho/bufferline.nvim",
-    {
-      "VonHeikemen/lsp-zero.nvim",
-      branch = 'v3.x'
-    },
-    "neovim/nvim-lspconfig",
-    "hrsh7th/cmp-nvim-lsp",
-    "hrsh7th/nvim-cmp",
-    "L3MON4D3/LuaSnip",
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
+    dependencies = "tiagovla/scope.nvim",
+  },
+  {
+    "VonHeikemen/lsp-zero.nvim",
+    branch = 'v3.x'
+  },
+  "neovim/nvim-lspconfig",
+  "hrsh7th/cmp-nvim-lsp",
+  "hrsh7th/nvim-cmp",
+  "L3MON4D3/LuaSnip",
+  "williamboman/mason.nvim",
+  "williamboman/mason-lspconfig.nvim",
 
-    {
-      "goolord/alpha-nvim",
-      config = function()
-        require'alpha'.setup(require'alpha.themes.theta'.config)
-      end
-    },
+  "goolord/alpha-nvim",
 
-    "0xWaleed/typeit-nvim",
+  "0xWaleed/typeit-nvim",
 
-    -- Temas --
-    {
-        "catppuccin/nvim", name = "catppuccin"
-    },
-    {
-        "Everblush/nvim", name = "everblush"
-    },
-    "ellisonleao/gruvbox.nvim",
-    "neanias/everforest-nvim",
-    "navarasu/onedark.nvim",
-    "EdenEast/nightfox.nvim",
-    "folke/tokyonight.nvim",
-    "rebelot/kanagawa.nvim",
-    "shaunsingh/nord.nvim",
-    "AlexvZyl/nordic.nvim",
-    "Mofiqul/dracula.nvim",
-    "rmehri01/onenord.nvim",
-    "tiagovla/tokyodark.nvim",
-    "loctvl842/monokai-pro.nvim",
-    "xero/miasma.nvim",
-    "LunarVim/horizon.nvim",
+  -- Temas --
+  {
+      "catppuccin/nvim", name = "catppuccin"
+  },
+  {
+      "Everblush/nvim", name = "everblush"
+  },
+  "ellisonleao/gruvbox.nvim",
+  "neanias/everforest-nvim",
+  "navarasu/onedark.nvim",
+  "EdenEast/nightfox.nvim",
+  "folke/tokyonight.nvim",
+  "rebelot/kanagawa.nvim",
+  "shaunsingh/nord.nvim",
+  "AlexvZyl/nordic.nvim",
+  "Mofiqul/dracula.nvim",
+  "rmehri01/onenord.nvim",
+  "tiagovla/tokyodark.nvim",
+  "loctvl842/monokai-pro.nvim",
+  "xero/miasma.nvim",
+  "LunarVim/horizon.nvim",
 })

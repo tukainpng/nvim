@@ -5,7 +5,6 @@ require("oil").setup({
     padding = 2,
     max_width = 60,
     max_height = 20,
-    border = "rounded",
     win_options = {
       winblend = 0,
     },
