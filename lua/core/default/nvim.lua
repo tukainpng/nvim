@@ -11,8 +11,6 @@ v.o.autoindent    =   true
 v.o.showmatch     =   true
 v.o.hidden        =   true
 v.o.termguicolors =   true
-v.o.splitright    =   true
-v.o.splitbellow   =   true
 v.o.list          =   true
 
 -- numbers --
