@@ -30,4 +30,5 @@ wk.register({
     t = {"<cmd>Themery<cr>", "Temas"},
     g = {"<cmd>e ~/.config/nvim<cr>", "Configurações"},
     r = {"<cmd>normal gggqG<cr>", "Formatar arquivo"},
+    x = {"require('nvim-emmet').wrap_with_abbreviation", "Formatar arquivo"},
 }, { prefix = "<leader>" })

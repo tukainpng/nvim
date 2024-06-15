@@ -34,10 +34,10 @@ require("lazy").setup({
   "L3MON4D3/LuaSnip",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
-
   "goolord/alpha-nvim",
-
   "0xWaleed/typeit-nvim",
+  "brenoprata10/nvim-highlight-colors",
+  "olrtg/nvim-emmet",
 
   -- Temas --
   {
@@ -48,7 +48,8 @@ require("lazy").setup({
   },
   "ellisonleao/gruvbox.nvim",
   "neanias/everforest-nvim",
-  "navarasu/onedark.nvim",
+  --"navarasu/onedark.nvim",
+  "olimorris/onedarkpro.nvim",
   "EdenEast/nightfox.nvim",
   "folke/tokyonight.nvim",
   "rebelot/kanagawa.nvim",

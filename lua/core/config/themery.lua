@@ -37,6 +37,18 @@ require("themery").setup({
     },
 
     {
+        name = "Onedark Dark",
+        colorscheme = "onedark_dark",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
+        name = "Onedark Vivid",
+        colorscheme = "onedark_vivid",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
         name = "Nord",
         colorscheme = "nord",
         before = [[ vim.opt.background = "dark" ]],
@@ -177,6 +189,12 @@ require("themery").setup({
     {
         name = "Everforest Light",
         colorscheme = "everforest",
+        before = [[ vim.opt.background = "light" ]],
+    },
+
+    {
+        name = "Onelight",
+        colorscheme = "onelight",
         before = [[ vim.opt.background = "light" ]],
     },
 
