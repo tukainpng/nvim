@@ -11,15 +11,14 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-  "nvim-tree/nvim-web-devicons",
-  "nvim-treesitter/nvim-treesitter",
-  "folke/which-key.nvim",
-  "nvim-lua/plenary.nvim",
-  "nvim-telescope/telescope.nvim",
-  "lewis6991/gitsigns.nvim",
-  "zaldih/themery.nvim",
-  "nvim-lualine/lualine.nvim",
-  "stevearc/oil.nvim",
+  {
+    "nvim-tree/nvim-tree.lua",
+    dependencies = "nvim-tree/nvim-web-devicons",
+  },
+  {
+    "nvim-telescope/telescope.nvim",
+    dependencies =   "nvim-lua/plenary.nvim",
+  },
   {
     "akinsho/bufferline.nvim",
     dependencies = "tiagovla/scope.nvim",
@@ -28,6 +27,10 @@ require("lazy").setup({
     "VonHeikemen/lsp-zero.nvim",
     branch = 'v3.x'
   },
+  "nvim-treesitter/nvim-treesitter",
+  "folke/which-key.nvim",
+  "lewis6991/gitsigns.nvim",
+  "nvim-lualine/lualine.nvim",
   "neovim/nvim-lspconfig",
   "hrsh7th/cmp-nvim-lsp",
   "hrsh7th/nvim-cmp",
@@ -35,9 +38,9 @@ require("lazy").setup({
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
   "goolord/alpha-nvim",
+  "zaldih/themery.nvim",
   "0xWaleed/typeit-nvim",
-  "brenoprata10/nvim-highlight-colors",
-  "olrtg/nvim-emmet",
+  "kdheepak/lazygit.nvim",
 
   -- Temas --
   {
@@ -48,7 +51,6 @@ require("lazy").setup({
   },
   "ellisonleao/gruvbox.nvim",
   "neanias/everforest-nvim",
-  --"navarasu/onedark.nvim",
   "olimorris/onedarkpro.nvim",
   "EdenEast/nightfox.nvim",
   "folke/tokyonight.nvim",
