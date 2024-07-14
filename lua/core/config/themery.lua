@@ -237,7 +237,7 @@ require("themery").setup({
 
     },
 
-    themeConfigFile = "~/.config/nvim/init.lua",
+--    themeConfigFile = "~/.config/nvim/init.lua",
     livePreview = true,
 })
 
