@@ -7,6 +7,12 @@ require("themery").setup({
     },
 
     {
+        name = "Brogrammer",
+        colorscheme = "brogrammer",
+        before = [[ vim.opt.background = "dark" ]],
+    },
+
+    {
         name = "Horizon",
         colorscheme = "horizon",
         before = [[ vim.opt.background = "dark" ]],

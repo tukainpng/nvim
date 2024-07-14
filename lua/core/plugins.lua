@@ -63,4 +63,5 @@ require("lazy").setup({
   "loctvl842/monokai-pro.nvim",
   "xero/miasma.nvim",
   "LunarVim/horizon.nvim",
+  "marciomazza/vim-brogrammer-theme",
 })
