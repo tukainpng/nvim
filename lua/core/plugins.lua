@@ -41,6 +41,7 @@ require("lazy").setup({
   "zaldih/themery.nvim",
   "0xWaleed/typeit-nvim",
   "kdheepak/lazygit.nvim",
+  "norcalli/nvim-colorizer.lua",
 
   -- Temas --
   {
